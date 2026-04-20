@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
   const baseUrl = "https://api.whatsapp.com/send/";
-  const whatsappNumber = "+237699848667";
+  const whatsappNumber = "+237699848665";
   const encodedMessage =
     "Hello, I am interested in your services. Could you please provide more information?";
   const whatsappUrl = `${baseUrl}?phone=${whatsappNumber}&text=${encodedMessage}&type=phone_number&app_absent=0`;
